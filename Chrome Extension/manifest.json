@@ -1,0 +1,12 @@
+{
+  "name":"Jumpman",
+  "version": "1.0.0",
+  "description": "This is a web game called Jumpman",
+  "manifest_version": 3,
+  "browser_action":{
+      "default_popup": "Homepage.html",
+      "default_icon":{
+          "128": "IconStylize.png"
+        }
+  }
+}
