@@ -1,0 +1,74 @@
+html{
+  max-width: 100;
+  border:40px #000000 ridge;
+  height:91.6%;
+  margin:auto;
+}
+body {
+  background: radial-gradient(#0D0664, #0A0731);
+}
+
+h1{
+  font-family: Do Hyeon, cursive;
+  font-size: 150px;
+  color: white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -250%);
+  text-shadow: 6px 6px 30px #964c96;
+}
+
+h1:hover{
+  -webkit-transition: text-shadow 0.2s linear;
+  -moz-transition: text-shadow 0.2s linear;
+  -ms-transition: text-shadow 0.2s linear;
+  -o-transition: text-shadow 0.2s linear;
+  transition: text-shadow 0.2s linear;
+  text-shadow: 6px 6px 40px #c399c3;
+}
+
+h1:not(:hover){
+  -webkit-transition: text-shadow 0.2s linear;
+  -moz-transition: text-shadow 0.2s linear;
+  -ms-transition: text-shadow 0.2s linear;
+  -o-transition: text-shadow 0.2s linear;
+  transition: text-shadow 0.2s linear;
+  text-shadow: 6px 6px 30px #964c96;
+}
+
+#pic1{
+  position: absolute;
+  top:0;
+  right:0;
+}
+
+#pic2{
+  position: absolute;
+  top:0px;
+  left:0;
+}
+
+#pic3{
+  position: absolute;
+  top: 94.6%;
+  left:0;
+}
+
+#pic4{
+  position: absolute;
+  top: 94.6%;
+  right:0;
+}
+
+#button{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+}
+
+#button:active{
+  width: 55%;
+  height: 55%;
+}
