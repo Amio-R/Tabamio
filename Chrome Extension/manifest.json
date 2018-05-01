@@ -1,12 +1,12 @@
 {
-  "name":"Jumpman",
+  "name":"Tabamio",
   "version": "1.0.0",
-  "description": "This is a web game called Jumpman",
+  "description": "To customize Homepage",
   "manifest_version": 3,
   "browser_action":{
-      "default_popup": "Homepage.html",
       "default_icon":{
-          "128": "IconStylize.png"
-        }
+          "128": "Icon.png"
+      },
+      "default_popup": "popup.html"
   }
 }

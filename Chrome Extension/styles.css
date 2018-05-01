@@ -1,0 +1,16 @@
+html
+{
+  min-height: 100%;
+  margin: 12;
+  background-color: #000000;
+}
+
+#icon{
+  display: block;
+  position: relative;
+  right: -71px;
+}
+
+.links{
+  color: #FFF;
+}
