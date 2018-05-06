@@ -1,6 +1,6 @@
 html
 {
-  min-height: 100%;
+  height: 200%;
   margin: 12;
   background-color: #000000;
 }
@@ -13,4 +13,9 @@ html
 
 .links{
   color: #FFF;
+}
+
+.booton{
+  position:absolute;
+  left: 42%;
 }
