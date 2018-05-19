@@ -61,14 +61,38 @@ h1:not(:hover){
   right:0;
 }
 
-#button{
+#button1{
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -30%);
+}
+
+#button1:active{
+  width: 35%;
+  height: 35%;
+}
+
+#button2{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -30%);
 }
 
-#button:active{
-  width: 55%;
-  height: 55%;
+#button2:active{
+  width: 35%;
+  height: 35%;
+}
+
+#button3{
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -30%);
+}
+
+#button3:active{
+  width: 35%;
+  height: 35%;
 }
