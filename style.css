@@ -1,0 +1,36 @@
+html,body{
+  height: 100%;
+  width: 100%;
+  margin:0px;
+}
+
+body{
+  background-image: url(pic2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display:flex;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-primary{
+  background-color:#7A85AD;
+  border-color:#7A85AD;
+  transition: all 1s;
+}
+
+.btn-group-lg>.btn, .btn-lg{
+  border-radius: 1.2rem;
+  padding: .5rem 3rem
+}
+
+.btn-primary:hover{
+  transform: scale(0.95);
+  background-color: #172557;
+  border-color: #172557;
+}
