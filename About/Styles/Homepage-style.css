@@ -5,7 +5,10 @@ html{
   margin:auto;
 }
 body {
-  background: radial-gradient(#0D0664, #0A0731);
+  /*background: radial-gradient(#0D0664, #0A0731);
+  */
+  background-image: url(../Illustrator/NightSky.jpg);
+  background-size: cover;
 }
 
 h1{
